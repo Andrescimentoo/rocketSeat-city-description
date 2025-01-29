@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+}
+
+/* Estilo do header */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+header .menu nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+}
+
+header .menu nav ul li {
+    margin-right: 20px;
+    font-size: 1.1rem;
+}
+
+header .menu nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+header .menu nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo da div titulo */
+.titulo {
+    margin-left: 20px;
+    padding: 20px;
+}
+
+.titulo {
+    font-size: 2rem;
+    color: #000000;
+    text-align: start;
+    margin: 10rem;
+}
+
+/* Estilo do main */
+main {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    padding: 20px;
+    flex: 1;
+}
+
+/* Estilo da cidade */
+.city {
+    max-width: 600px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    border: 3px solid #333;  /* Adicionando borda */
+    border-radius: 8px;
+    border-width: 10px; /* Bordas arredondadas para dar um toque mais suave */
+}
+
+.city h6 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.city img {
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
+
+.city p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Estilo do footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+footer ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
